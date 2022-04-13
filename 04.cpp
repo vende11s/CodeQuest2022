@@ -1,15 +1,15 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 typedef long long ll;
 using namespace std;
 
 int in(){
-int inX;
-cin>>inX;
-return inX;
+    int inX;
+    cin>>inX;
+    return inX;
 }
 
-int main()
-{
+int main(){
+    cout.tie(0)->sync_with_stdio(0);
     int z(in());
     while(z--){
         string number; cin>>number;
@@ -29,9 +29,7 @@ int main()
             number.insert(3,".");
             number.insert(7,".");
         }
-
-
         cout<<number<<endl;
-
     }
 }
+

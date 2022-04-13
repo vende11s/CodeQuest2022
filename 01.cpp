@@ -1,19 +1,19 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 typedef long long ll;
-
 using namespace std;
 
 int in(){
-int inX;
+    int inX;
     cin>>inX;
-return inX;
+    return inX;
 }
 
-int main()
-{
+int main(){
+    cout.tie(0)->sync_with_stdio(0);
     int z(in());
     while(z--){
-        int b = in();
-        cout<<(b%2==0 ? "EVEN\n" : "ODD\n");
+        int a(in());
+        cout<<(a%2==0 ? "EVEN" : "ODD" )<<endl;
     }
 }
+
